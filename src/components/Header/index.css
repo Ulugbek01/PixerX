@@ -1,49 +1,7 @@
-/* Fonts */
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../../fonts/OpenSans-Regular.woff2') format('woff2'),
-        url('../../fonts/OpenSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../../fonts/OpenSans-Bold.woff2') format('woff2'),
-        url('../../fonts/OpenSans-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* Core styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style-type: none;
-}
-
-body {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-}
 
 /* Header styles */
 #main-header {
-    padding: 16px 0;
+    padding: 8px 0;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -69,4 +27,8 @@ body {
     font-size: 15px;
     color: #000;
     line-height: 24px;
+}
+
+.main-navigation .last-child {
+    margin-right: 24px;
 }

@@ -1,0 +1,18 @@
+#hero {
+    padding: 80px 0;
+}
+
+#hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-info {
+    max-width: 470px;
+}
+
+/* Services styles */
+#services {
+    padding: 56px 0;
+}
