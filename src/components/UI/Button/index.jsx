@@ -1,9 +1,8 @@
 import React from 'react'
 import { BtnLink } from './style'
 
-export const Button = (props) => {
-    console.log(props)
+export const ButtonLink = (props) => {
   return (
-    <BtnLink>{props}</BtnLink>
+    <BtnLink {...props}>{props.children}</BtnLink>
   )
 }

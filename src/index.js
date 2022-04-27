@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Button } from "./components/UI/Button";
+import { Header } from "./components/Header";
+import "./shared.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Button>+998 90 921 37 11</Button>
+    <Header />
   </React.StrictMode>
 );
