@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Main from "./Main";
+import { Button } from "./components/UI/Button";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Main />
+    <Button>+998 90 921 37 11</Button>
   </React.StrictMode>
 );
